@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Division Wise Annual Rainfall Map of Bangladesh</title>
+
+    <link rel="stylesheet" href="assets/custom/style.css"/>   
+    <link rel="stylesheet" href="assets/lib/leaflet.css"/>
+    <script src="assets/lib/leaflet.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" ></script>
+    
+    <script src="assets/custom/style.js"></script>
+    <script src="assets/data/division.js"></script>
+    <script src="assets/data/rainfall_annual.js"></script>
+    <script src="assets/custom/mapdata.js"></script>
+    <script src="assets/custom/render.js"></script>
+</head>
+<body>
+    <div id="map"></div>
+    <div class="slidecontainer">
+        Year: <span id="year"></span>
+        <input type="range" min="1970" max="2016" value="2016" class="slider" id="yearSlide">
+    </div>
+    
+    <script src="assets/custom/index.js"></script>
+    
+</body>
+</html>
